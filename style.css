@@ -1,71 +1,126 @@
-body{
-    font-family: 'Raleway', sans-serif;
-font-family: 'Rubik', sans-serif;
-    margin: 0;
-    padding: 0;
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-h1{
-   
-    font-size: 60px;
-    padding: 0;
-    margin: 0;
+h1 {
+  text-align: center;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
 }
-p{
-    font-size: 18px;
-   padding-bottom: 15px;
+h2 {
+  font-size: 48px;
+
+  margin: 0;
+  padding: 0;
 }
-.first-section{
-    
-    color: white;
-    padding: 100px;
- background-image: url(images/donation-2.jpg);
+h3 {
+  font-size: 30px;
+  margin: 0;
+}
+p {
+  font-size: 18px;
+  margin: 20px;
+  padding: 15;
+}
+.first-section {
+  color: white;
+  padding: 100px;
+  background-image: url(images/donation-2.jpg);
 
   background-repeat: no-repeat;
   text-align: center;
   background-attachment: fixed;
   background-size: cover;
 }
-.donate-link{
-     color: white;
-    font-size: 20px;
-    text-decoration: none;
-    padding: 10px 30px;
-  background-image: linear-gradient(pink,purple);
-    border-radius: 10px;
-    margin-top:  20px;
+.donate-link {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-image: linear-gradient(pink, purple);
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
-.second-setion{
-    margin: auto;
-    width: 50%;
+.second-setion {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+}
+.donate-amount {
+  display: flex;
+  justify-content: center;
+}
+.donate-amount h2 {
+  padding: 20px 40px;
+}
+.amount {
+  background-color: rgba(235, 160, 235, 0.418);
+  border-radius: 3px;
+  margin: 40px;
+}
+#amount-200 {
+  border: 1px solid tomato;
+  background-color: papayawhip;
+  border-radius: 7px;
+}
+.second-setion input {
+  padding: 10px 140px;
+  margin-bottom: 30px;
+  border: 1px solid purple;
+}
+.donate-container {
+  margin: auto;
+  width: 100%;
+}
+.donate-plan-title{
+    margin-top: 60px;
     text-align: center;
-    padding: 30px;
 }
-.donate-amount{
-    display: flex;
-    justify-content: center;
-   
+.donate-plan {
+  display: flex;
+  width: 100%;
 }
-.donate-amount h2{
-padding: 20px 40px;
-
-
+.donate-details1 {
+  width: 30%;
+  background-color: rgba(223, 136, 165, 0.397);
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
-.amount{
-    background-color: lightgrey;
-    border-radius: 3px;
-   margin: 40px;
-   
-    
+.donate-details2 {
+  width: 30%;
+  background-color: azure;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
-#amount-200{
-border: 1px solid tomato;
-background-color: papayawhip;
-    border-radius: 7px;
-}
-.second-setion input{
-    padding: 10px 140px;
-    margin-bottom: 30px;
-    border: 1px solid purple;
+.donate-details3 {
+  width: 30%;
+  background-color: rgba(255, 192, 203, 0.589);
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border-radius: 10px;
 }
 
+.donation-live {
+  display: flex;
+  margin: 50px 30px;
+  width: 100%;
+}
+.donation-live-text {
+  width: 50%;
+ padding: 30px;
+ margin: 30px;
+  
+}
+.donation-live-img img{
+  width: 80%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 30px;
+}
