@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Rubik", sans-serif;
@@ -12,7 +14,7 @@ h1 {
 }
 h2 {
   font-size: 48px;
-
+ color: maroon;
   margin: 0;
   padding: 0;
 }
@@ -24,6 +26,12 @@ p {
   font-size: 18px;
   margin: 20px;
   padding: 15;
+  color: maroon;
+}
+#title-paragraph{
+text-align: center;
+color: lightgrey;
+margin-bottom: 50px;
 }
 .first-section {
   color: white;
@@ -77,9 +85,9 @@ p {
   margin: auto;
   width: 100%;
 }
-.donate-plan-title{
-    margin-top: 60px;
-    text-align: center;
+.donate-plan-title {
+  margin-top: 60px;
+  text-align: center;
 }
 .donate-plan {
   display: flex;
@@ -114,13 +122,52 @@ p {
 }
 .donation-live-text {
   width: 50%;
- padding: 30px;
- margin: 30px;
-  
+  padding: 30px;
+  margin: 30px;
 }
-.donation-live-img img{
+.donation-live-img img {
   width: 80%;
   padding: 20px;
   margin: 20px;
   border-radius: 30px;
+}
+
+.logo-section {
+  background-color: rgb(235, 166, 38);
+  padding: 50px 0;
+  color: rgb(71, 4, 4);
+  margin-top: 60px;
+}
+
+.logo-items {
+   padding-top: 50px;
+   margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.email-subcribe {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+.email-update {
+  padding: 50px 100px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.email-update input {
+  padding: 10px 100px;
+  margin-bottom: 30px;
+  border: 1px solid orange;
+}
+
+footer {
+  color: tomato;
+  text-align: center;
+  background-color: black;
+  padding: 30px 0;
+  font-family: "Pacifico", cursive;
 }
